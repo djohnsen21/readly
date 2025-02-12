@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Readly - Personalized Reading Kits</title>
     <link rel="stylesheet" href="styles.css"> <!-- External stylesheet -->
     <style>
@@ -48,10 +46,10 @@
 
     <!-- Hero Section -->
     <header id="home" class="hero-section">
-        <br>
-        <h1>Unlock the Joy of Reading with Personalized Kits for ALL Ages!</h1>
-        <img src="smilechild.jpeg" alt="A child and parent using Readly kits" class="hero-image">
-        <img src="smilechild2_42.jpeg" alt="A child and parent using Readly kits" class="hero-image">
+        <h1>Introducing Readly.</h1>
+        <h2>Unlock the Joy of Reading with Personalized Kits for ALL Ages!</h2>
+        <img src="smilechild.jpeg" class="hero-image">
+        <img src="smilechild2_42.jpg" class="hero-image">
         <br>
         <button class="cta-button">Take Our Free Assessment Quiz!</button>
     </header>
@@ -70,7 +68,34 @@
     <section id="testimonials">
         <h2>What Our Customers Say</h2>
         <blockquote>"Readly transformed my child's learning experience!" – Parent Testimonial</blockquote>
+        <blockquote>"Readly made learning English as easy as pie!" - Non-English Speaker</blockquote>
     </section>
+
+    <!-- Form section -->
+     <section id="form">
+        <h2>Optimize Your Readly Experience!</h2>
+        <h4>Take our survey and customize your reading kits!</h4>
+        <form action='#' method='get'>
+        <label>Name:</label><br />
+        <input type="text" name='name' id='the_name'>
+        <br /><br />
+        Primary Language:<br /> <input type = "text">
+        <br /><br />
+        Why are you using Readly? (Select one): <br />
+            <select name="whyReadly">
+            <option value="1"></option>
+            <option value="2">English is my second language</option>
+            <option value="3">My child needs to improve their reading</option>
+            <option value="4">I just want to improve my skills</option>
+            <option value="5">Other</option></select>
+        <br /><br />
+        <label>If other, please specify:</label><br />
+        <input type="text" name='other' id='other_reason'>
+        <br /><br />
+
+        <input type = "submit" value = "Submit!">
+        </form>
+     </section>
 
     <!-- Subscription Section -->
     <section id="subscriptions">
