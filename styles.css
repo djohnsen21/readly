@@ -49,10 +49,16 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
+.hero-section h2 {
+    font-size: 2rem;
+    color: #000;
+}
+
 .hero-image {
     width: 300px;
     height: auto;
     margin: 20px 0;
+    display: inline-block;
 }
 
 .cta-button {
@@ -73,7 +79,7 @@ nav a:hover {
 /* Benefits section */
 .benefits-section {
     padding: 50px 20px;
-    background-color: #e9ecef;
+    background-color: #ffffff;
 }
 
 .benefits-section h2 {
@@ -97,10 +103,58 @@ nav a:hover {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
+/* Form Section Styles */
+#form {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    text-align: center;
+    background-image: url('bookbackground.jpg'); /* Adds background image */
+    background-size: cover;
+    background-position: center;
+}
+/* {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+} */
+
+#form form {
+    display: inline-block;
+    text-align: left;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+#form input, #form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
 /* Testimonials section */
 #testimonials {
     padding: 50px 20px;
-    background-color: #fff;
+    background-color: #f9f9f9;
     text-align: center;
 }
 
